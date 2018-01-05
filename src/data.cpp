@@ -1,17 +1,8 @@
 
 #include "data.hpp"
-#ifndef DRAND48_H  
-#define DRAND48_H  
-  
-#include <stdlib.h>  
-#include <stdio.h>    
-#define m 0x100000000LL  
-#define c 0xB16  
-#define a 0x5DEECE66DLL  
-#include <iostream>
+
 #include <fcntl.h>
 #include <stdexcept>
-#include <time.h>
 
 
 Data::Data(const char* bedfile, const char* famfile, bool verbose)
