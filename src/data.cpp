@@ -1,4 +1,5 @@
 
+#define _CRT_RAND_S
 #include <stdlib.h>  
   
 
