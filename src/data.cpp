@@ -1,4 +1,12 @@
-
+#ifndef DRAND48_H  
+#define DRAND48_H  
+  
+#include <stdlib.h>  
+  
+#define m 0x100000000LL  
+#define c 0xB16  
+#define a 0x5DEECE66DLL
+#include "time.h"
 #include "data.hpp"
 
 #include <fcntl.h>
